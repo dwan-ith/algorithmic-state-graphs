@@ -1,0 +1,131 @@
+
+### Prim
+
+  [random sparse n=200]
+    errors       : 0
+    fast_rate    : 76.3%
+    speedup      : 16.23x
+    dyn_ms       : 9.44
+    static_ms    : 153.09
+    sensitivity  : 9.34%
+
+  [targeted increases n=200]
+    errors       : 0
+    fast_rate    : 82.0%
+    speedup      : 20.33x
+    dyn_ms       : 7.94
+    static_ms    : 161.40
+    sensitivity  : 8.21%
+
+  [random sparse n=500]
+    errors       : 0
+    fast_rate    : 83.7%
+    speedup      : 21.83x
+    dyn_ms       : 15.89
+    static_ms    : 346.81
+    sensitivity  : 8.71%
+
+
+### Kruskal
+
+  [random sparse n=200]
+    errors       : 0
+    fast_rate    : 76.3%
+    speedup      : 4.57x
+    dyn_ms       : 30.75
+    static_ms    : 140.61
+    sensitivity  : 21.25%
+
+  [targeted increases n=200]
+    errors       : 0
+    fast_rate    : 82.0%
+    speedup      : 3.69x
+    dyn_ms       : 51.50
+    static_ms    : 189.98
+    sensitivity  : 17.46%
+
+  [random sparse n=500]
+    errors       : 0
+    fast_rate    : 83.7%
+    speedup      : 5.28x
+    dyn_ms       : 92.30
+    static_ms    : 487.71
+    sensitivity  : 16.94%
+
+
+### Dijkstra
+
+  [random sparse n=200]
+    errors       : 0
+    fast_rate    : 79.4%
+    speedup      : 161.94x
+    dyn_ms       : 0.67
+    static_ms    : 108.78
+    sensitivity  : 0.07%
+
+  [targeted increases n=200]
+    errors       : 0
+    fast_rate    : 80.0%
+    speedup      : 152.52x
+    dyn_ms       : 0.74
+    static_ms    : 113.53
+    sensitivity  : 0.21%
+
+  [random sparse n=500]
+    errors       : 0
+    fast_rate    : 87.8%
+    speedup      : 634.14x
+    dyn_ms       : 0.44
+    static_ms    : 279.85
+    sensitivity  : 0.02%
+
+
+### A*
+
+  [random sparse n=200]
+    errors       : 0
+    fast_rate    : 90.0%
+    speedup      : 187.49x
+    dyn_ms       : 1.50
+    static_ms    : 280.72
+    avg_expand   : 1.01
+
+  [targeted increases n=200]
+    errors       : 0
+    fast_rate    : 93.0%
+    speedup      : 207.11x
+    dyn_ms       : 1.44
+    static_ms    : 298.97
+    avg_expand   : 1.01
+
+  [random sparse n=500]
+    errors       : 0
+    fast_rate    : 92.0%
+    speedup      : 1008.68x
+    dyn_ms       : 1.70
+    static_ms    : 1716.37
+    avg_expand   : 6.46
+
+
+### MaxFlow
+
+  [random sparse n=200]
+    errors       : 0
+    fast_rate    : 96.0%
+    speedup      : 79.36x
+    dyn_ms       : 0.43
+    static_ms    : 34.48
+
+  [targeted increases n=200]
+    errors       : 0
+    fast_rate    : 96.0%
+    speedup      : 119.28x
+    dyn_ms       : 0.29
+    static_ms    : 34.21
+
+  [random sparse n=500]
+    errors       : 0
+    fast_rate    : 96.1%
+    speedup      : 205.15x
+    dyn_ms       : 0.19
+    static_ms    : 39.86

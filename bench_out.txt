@@ -1,0 +1,144 @@
+﻿
+============================================================
+ Dynamic Prim
+============================================================
+
+  [random sparse (dec/inc/del/add)]  n=200, 100 updates
+  [OK]
+  fast-repair: 76%
+  speedup: 14.66x
+  dyn: 10.6ms  static: 155.4ms
+  sensitivity: 9.3% state changed
+
+  [targeted increases (harder)]  n=200, 100 updates
+  [OK]
+  fast-repair: 82%
+  speedup: 20.11x
+  dyn: 6.6ms  static: 132.7ms
+  sensitivity: 8.2% state changed
+
+  [larger graph]  n=500, 50 updates
+  [OK]
+  fast-repair: 86%
+  speedup: 20.27x
+  dyn: 13.2ms  static: 267.0ms
+  sensitivity: 8.9% state changed
+
+============================================================
+ Dynamic Boruvka
+============================================================
+
+  [random sparse (dec/inc/del/add)]  n=200, 100 updates
+  [OK]
+  fast-repair: 77%
+  speedup: 3.24x
+  dyn: 67.2ms  static: 217.6ms
+
+  [targeted increases (harder)]  n=200, 100 updates
+  [OK]
+  fast-repair: 82%
+  speedup: 2.98x
+  dyn: 68.7ms  static: 204.8ms
+
+  [larger graph]  n=500, 50 updates
+  [OK]
+  fast-repair: 86%
+  speedup: 4.13x
+  dyn: 130.8ms  static: 540.5ms
+
+============================================================
+ Dynamic Kruskal
+============================================================
+
+  [random sparse (dec/inc/del/add)]  n=200, 100 updates
+  [OK]
+  fast-repair: 76%
+  speedup: 4.89x
+  dyn: 46.6ms  static: 228.0ms
+  sensitivity: 21.2% state changed
+
+  [targeted increases (harder)]  n=200, 100 updates
+  [OK]
+  fast-repair: 82%
+  speedup: 4.03x
+  dyn: 50.8ms  static: 204.6ms
+  sensitivity: 17.5% state changed
+
+  [larger graph]  n=500, 50 updates
+  [OK]
+  fast-repair: 86%
+  speedup: 5.17x
+  dyn: 128.7ms  static: 666.0ms
+  sensitivity: 15.4% state changed
+
+============================================================
+ Dynamic Dijkstra
+============================================================
+
+  [random sparse (dec/inc/del/add)]  n=200, 100 updates
+  [OK]
+  fast-repair: 79%
+  speedup: 182.54x
+  dyn: 1.4ms  static: 260.9ms
+  sensitivity: 0.1% state changed
+
+  [targeted increases (harder)]  n=200, 100 updates
+  [OK]
+  fast-repair: 80%
+  speedup: 154.24x
+  dyn: 1.2ms  static: 191.1ms
+  sensitivity: 0.2% state changed
+
+  [larger graph]  n=500, 50 updates
+  [OK]
+  fast-repair: 80%
+  speedup: 393.19x
+  dyn: 1.0ms  static: 411.7ms
+  sensitivity: 0.0% state changed
+
+============================================================
+ Dynamic A*
+============================================================
+
+  [random sparse (dec/inc/del/add)]  n=200, 100 updates
+  [OK]
+  fast-repair: 90%
+  speedup: 164.98x
+  dyn: 4.6ms  static: 761.8ms
+  avg expansions/update: 1.01
+
+  [targeted increases (harder)]  n=200, 100 updates
+  [OK]
+  fast-repair: 93%
+  speedup: 188.48x
+  dyn: 3.0ms  static: 568.9ms
+  avg expansions/update: 1.01
+
+  [larger graph]  n=500, 50 updates
+  [OK]
+  fast-repair: 90%
+  speedup: 1009.31x
+  dyn: 2.2ms  static: 2206.1ms
+  avg expansions/update: 7.36
+
+============================================================
+ Dynamic MaxFlow
+============================================================
+
+  [random sparse (dec/inc/del/add)]  n=200, 100 updates
+  [OK]
+  fast-repair: 96%
+  speedup: 93.90x
+  dyn: 0.9ms  static: 84.1ms
+
+  [targeted increases (harder)]  n=200, 100 updates
+  [OK]
+  fast-repair: 96%
+  speedup: 73.03x
+  dyn: 1.1ms  static: 77.5ms
+
+  [larger graph]  n=500, 50 updates
+  [OK]
+  fast-repair: 96%
+  speedup: 183.74x
+  dyn: 0.5ms  static: 99.1ms
